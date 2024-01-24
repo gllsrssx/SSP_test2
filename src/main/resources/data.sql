@@ -1,14 +1,3 @@
-insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('The Hunger Games','In a dystopian future, teenagers fight in televised games for survival.','Suzanne Collins','2008');
-insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('Catching Fire','The sequel where the rebellion against the Capitol begins.','Suzanne Collins','2009');
-insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('Mockingjay','The final installment, focusing on the revolution and aftermath.','Suzanne Collins','2010');
-insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('The Ballad of Songbirds and Snakes','A prequel to the original The Hunger Games trilogy, set 64 years before the events of the first novel.','Suzanne Collins','2020');
-
-insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('The Hunger Games','Gary Ross','2012');
-insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('Catching Fire','Francis Lawrence','2013');
-insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('Mockingjay Part 1','Francis Lawrence','2014');
-insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('Mockingjay Part 2','Francis Lawrence','2015');
-insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('The Ballad of Songbirds and Snakes','Francis Lawrence','2023');
-
 insert into BOOK (TITLE, DESCRIPTION) values ('Oryx and Crake', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.'); /*1*/
 insert into BOOK (TITLE, DESCRIPTION) values ('The year of the flood', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*2*/
 insert into BOOK (TITLE, DESCRIPTION) values ('MaddAddam', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*3*/
@@ -65,3 +54,14 @@ insert into SERIE(NAME) values ('Harry Potter');
 insert into SERIE(NAME) values ('Anderland');
 
 
+
+insert into book (title, description, AUTHOR, releaseYear) values ('The Hunger Games','In a dystopian future, teenagers fight in televised games for survival.','Suzanne Collins','2008');
+insert into book (title, description, AUTHOR, releaseYear) values ('Catching Fire','The sequel where the rebellion against the Capitol begins.','Suzanne Collins','2009');
+insert into book (title, description, AUTHOR, releaseYear) values ('Mockingjay','The final installment, focusing on the revolution and aftermath.','Suzanne Collins','2010');
+insert into book (title, description, AUTHOR, releaseYear) values ('The Ballad of Songbirds and Snakes','A prequel to the original The Hunger Games trilogy, set 64 years before the events of the first novel.','Suzanne Collins','2020');
+
+insert into Movies (title, Director, releaseYear) values ('The Hunger Games','Gary Ross','2012');
+insert into Movies (title, Director, releaseYear) values ('Catching Fire','Francis Lawrence','2013');
+insert into Movies (title, Director, releaseYear) values ('Mockingjay Part 1','Francis Lawrence','2014');
+insert into Movies (title, Director, releaseYear) values ('Mockingjay Part 2','Francis Lawrence','2015');
+insert into Movies (title, Director, releaseYear) values ('The Ballad of Songbirds and Snakes','Francis Lawrence','2023');
