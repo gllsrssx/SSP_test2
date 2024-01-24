@@ -3,6 +3,12 @@ insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('Catching Fir
 insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('Mockingjay','The final installment, focusing on the revolution and aftermath.','Suzanne Collins','2010');
 insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('The Ballad of Songbirds and Snakes','A prequel to the original The Hunger Games trilogy, set 64 years before the events of the first novel.','Suzanne Collins','2020');
 
+insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('The Hunger Games','Gary Ross','2012');
+insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('Catching Fire','Francis Lawrence','2013');
+insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('Mockingjay Part 1','Francis Lawrence','2014');
+insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('Mockingjay Part 2','Francis Lawrence','2015');
+insert into MOVIES (TITLE, DIRECTOR, RELEASEYEAR) values ('The Ballad of Songbirds and Snakes','Francis Lawrence','2023');
+
 insert into BOOK (TITLE, DESCRIPTION) values ('Oryx and Crake', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.'); /*1*/
 insert into BOOK (TITLE, DESCRIPTION) values ('The year of the flood', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*2*/
 insert into BOOK (TITLE, DESCRIPTION) values ('MaddAddam', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*3*/
