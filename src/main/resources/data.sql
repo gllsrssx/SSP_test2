@@ -1,3 +1,8 @@
+insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('The Hunger Games','In a dystopian future, teenagers fight in televised games for survival.','Suzanne Collins','2008');
+insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('Catching Fire','The sequel where the rebellion against the Capitol begins.','Suzanne Collins','2009');
+insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('Mockingjay','The final installment, focusing on the revolution and aftermath.','Suzanne Collins','2010');
+insert into BOOK (TITLE, DESCRIPTION, AUTHOR, RELEASEYEAR) values ('The Ballad of Songbirds and Snakes','A prequel to the original The Hunger Games trilogy, set 64 years before the events of the first novel.','Suzanne Collins','2020');
+
 insert into BOOK (TITLE, DESCRIPTION) values ('Oryx and Crake', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.'); /*1*/
 insert into BOOK (TITLE, DESCRIPTION) values ('The year of the flood', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*2*/
 insert into BOOK (TITLE, DESCRIPTION) values ('MaddAddam', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*3*/
