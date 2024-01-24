@@ -21,3 +21,12 @@ create table genre
     name varchar(255) not null,
     primary key (id)
 );
+create table Movies
+(
+    id          integer      not null GENERATED ALWAYS AS IDENTITY,
+    title       varchar(255) not null,
+    Director    varchar(255),
+    releaseYear varchar(4) check ((releaseYear == '19%' OR releaseYear == '20%') AND releaseYear <= (YEAR(GETDATE())+5)),
+    book_id     integer,
+    primary key (id)
+);
